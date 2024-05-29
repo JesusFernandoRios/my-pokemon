@@ -34,6 +34,7 @@ const PokemonProvider = ({ children }: PokemonProviderProps) => {
         `https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`
       );
       setPokemonData(response.data);
+      console.log(response.data);
     } catch (err) {
       setError("Could not find pokemon");
       setPokemonData(null);

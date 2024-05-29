@@ -5,7 +5,7 @@ import SearchPokemon from "./components/SearchPokemon";
 function App() {
   return (
     <>
-      <SearchPokemon name={"ditto"} />
+      <SearchPokemon />
     </>
   );
 }
